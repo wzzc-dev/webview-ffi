@@ -10,7 +10,7 @@
     }
   },
   "warn-list": "-1-2-3-6",
-  "supported-targets": [
-    "native"
-  ]
+  // "supported-targets": [
+  //   "native"
+  // ]
 }
