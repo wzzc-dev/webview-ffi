@@ -9,7 +9,8 @@
       "cc-link-flags": "-L ./lib -lwebview"
     }
   },
-  "warn-list": "-1-2-3-6",
+  "warn-list": "-1-2-3-6"
+  // ,
   // "supported-targets": [
   //   "native"
   // ]
