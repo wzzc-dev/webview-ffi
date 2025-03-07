@@ -16,6 +16,7 @@ fn main {
   // let _ = @lib.webview_run(webview);
   // let _ = @lib.webview_destroy(webview);
   let webview = @webview.Webview::new()
+  webview.set_debug(1)
   webview.set_title("Hello World!")
   webview.set_html("<h1>Hello World!</h1>")
   webview.set_size(800, 600, 0)

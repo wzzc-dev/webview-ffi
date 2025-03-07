@@ -1,5 +1,5 @@
 struct Webview {
-  debug: Int
+  mut debug: Int
   window: Int64
   mut title: String
   mut html: String
@@ -11,6 +11,10 @@ struct Webview {
 pub fn Webview::new() -> Webview {
   let webview = Webview::{ debug: 0, window: 0 , title: "", html: "", width: 0, height: 0, hints: 0}
   webview
+}
+
+pub fn Webview::set_debug(self: Webview, debug: Int) -> Unit {
+  self.debug = debug
 }
 
 pub fn Webview::set_title(self: Webview, title: String) -> Unit {
